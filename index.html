@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Performance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+```
+<h1>📊 Student Performance Tracker</h1>
+<p>Track your academic performance, analyze scores, and identify weak subjects easily.</p>
+
+<div class="container">
+
+    <input type="text" id="subject" placeholder="Enter Subject">
+    <input type="number" id="marks" placeholder="Enter Marks">
+    <button onclick="addData()">Add</button>
+
+    <h2>Subjects</h2>
+    <ul id="list"></ul>
+
+    <h2>Statistics</h2>
+    <p id="average"></p>
+    <p id="highest"></p>
+    <p id="lowest"></p>
+
+    <canvas id="chart"></canvas>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+<p id="status"></p>
+```
+
+</body>
+</html>
